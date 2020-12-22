@@ -22,17 +22,22 @@ module.exports = {
 			'single-action',
 			'namespace-to-projects',
 		],
-		'Serverless SDK': ['key-value-sdk', 'key-value-storage', 'file-stores'],
+		'Serverless SDK': ['key-value-sdk', 'file-stores'],
 		'Runtime & Languages': ['runtime'],
 		CLI: ['install', 'commands', 'flags', 'command-summary', 'wsk'],
-		Workbench: ['workbench'],
 
+		Workbench: [
+			'workbench',
+			'workbench-activations',
+			'workbench-deploy-from-github',
+			'workbench-playground-introduction',
+			'workbench-playground-exports',
+		],
 		'Getting Started': ['getting-started', 'building', 'nim-creating-project'],
 		'Developing and Deploying Serverless APIs': [
 			'sample-project-walkthrough',
 			'stateful-api-examples',
 		],
-
 		'Developing & Deploying Web': ['web', 'web-content'],
 		'Taking your application to production': ['production'],
 		Integrations: ['commander', 'postman', 'netlify'],
