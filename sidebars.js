@@ -32,7 +32,8 @@ module.exports = {
 			'workbench-playground-introduction',
 			'workbench-playground-exports',
 		],
-		Getting Started': ['getting-started', 'building', 'nim-creating-project'],
+		'Getting Started': ['getting-started', 'building', 'nim-creating-project'],
+
 		'Developing and Deploying Serverless APIs': ['sample-project-walkthrough'],
 		'Developing & Deploying Web': ['web', 'web-content'],
 		'Taking your application to production': ['production'],
