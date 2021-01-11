@@ -35,7 +35,7 @@ module.exports = {
 		'Getting Started': ['getting-started', 'building'],
 		'Developing and Deploying Serverless APIs': ['sample-project-walkthrough'],
 		'Developing & Deploying Web': ['web', 'web-content'],
-		'Taking your application to production': ['production', 'project-limits'],
+		'Taking your application to production': ['production'],
 		Integrations: ['commander', 'postman', 'netlify'],
 		'Porting existing applications onto Nimbella': [
 			'heroku',
